@@ -1,0 +1,47 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div.chat{
+    width: 500px;
+    height: 500px;
+    background-color: lightgrey;
+    border-color: blue;
+    display: flex;
+    flex-direction: column;
+}
+
+div div.chat_messages{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+div div.chat_messages p.own_messages{
+    align-self: flex-end;
+    background-color: navajowhite;
+}
+
+div div.chat_messages p.other_messages{
+    align-self: flex-start;
+    background-color: antiquewhite;
+}
+
+div div.send {
+    height: 10%;
+    width: 100%;
+}
+
+div div.send input{
+    width: 75%;
+    height:90%;
+}
+
+div div.send button{
+    width: 24%;
+    height:98%;
+    background-color: lightblue;
+}
